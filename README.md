@@ -10,7 +10,7 @@ cd pixelos
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen
 repo sync
 
-git clone https://github.com/moedesu-sm6375/local_manifests -b pixelos .repo/local_manifests
+git clone https://github.com/sm6375/local_manifests -b main .repo/local_manifests
 repo sync
 ```
 
