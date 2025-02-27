@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Dt" fetch="https://github.com/Motorola-SM6375-Devs" />
+    <remote name="Lineage" fetch="https://github.com/LineageOS" />
+    <remote name="me" fetch="https://github.com/sm6375" />
+
+    <!-- Device-Tree e Device-Common -->
+    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="me" revision="fifteen"  />
+    <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="me" revision="fifteen"  />
+    <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="me" revision="fifteen"  />
+
+    <!-- Vendor e Vendor-Common -->
+    <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" remote="me" revision="fourteen-nomotocamera"  />
+    <project path="vendor/motorola/fogos" name="android_vendor_motorola_fogos" remote="me" revision="fourteen"  />
+    <project path="vendor/motorola/sm6375-common" name="android_vendor_motorola_sm6375-common" remote="me" revision="fourteen"  />
+
+    <!-- Kernel e Dependências -->
+    <project path="kernel/motorola/sm6375" name="android_kernel_motorola_sm6375" remote="me" revision="fifteen"  />
+    <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-22.1"  />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.1"  />
+
+</manifest>
