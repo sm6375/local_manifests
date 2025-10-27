@@ -5,9 +5,9 @@
     <remote name="me" fetch="https://github.com/sm6375" />
 
     <!-- Device-Tree and Device-Common -->
-    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="me" revision="sixteen"  />
-    <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="me" revision="sixteen"  />
-    <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="me" revision="sixteen"  />
+    <project path="device/motorola/bangkk" name="android_device_motorola_bangkk" remote="me" revision="infinity"  />
+    <project path="device/motorola/fogos" name="android_device_motorola_fogos" remote="me" revision="infinity"  />
+    <project path="device/motorola/sm6375-common" name="android_device_motorola_sm6375-common" remote="me" revision="infinity"  />
 
     <!-- Vendor and Vendor-Common -->
     <project path="vendor/motorola/bangkk" name="android_vendor_motorola_bangkk" remote="me" revision="sixteen"  />
